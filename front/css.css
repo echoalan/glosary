@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.header{
+    background-color: rgb(231, 231, 231);
+}
+
+.header h3 {
+    padding: 12px;
+    font-weight: 500;
+    color: #323232;
+}
+
+form{
+    display: flex;
+    background-color: #646464;
+    padding: 10px;
+}
+
+form input{
+    padding: 4px;
+}
+
+.sectionWords{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.articleWords{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.contentWords{
+    box-shadow: 2px 2px 2px #b9b9b9;
+    width: 300px;
+    padding: 25px;
+    background-color: rgb(228, 228, 228);
+    text-align: center;
+}
+
+.contentWords h3 {
+    font-weight: 500;
+    color: #000;
+}
+
